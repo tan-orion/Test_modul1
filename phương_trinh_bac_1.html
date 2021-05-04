@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// giải phương trình bậc nhất a*x+b=0 với  tham số là các hệ số nguyên a,b
+function equation(a,b){
+
+   if (a==0){
+       return false
+   }else  if(b==0){
+       alert("phương trình vô số nghiệm");
+   }else {
+       x=-b/a;
+   }
+   return x;
+}
+let result=equation(5,8);
+console.log(result)
+
+</script>
+</body>
+</html>
